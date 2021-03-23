@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WTF: Webpack starter kit</title>
-    <meta name="description" content="Your project description" />
+    <title>Homepage</title>
+    <meta name="description" content="My homepage" />
     <!-- Title -->
     <meta property="og:title" content="" />
     <!-- OPTIONAL description. 2-4 sentences. -->
@@ -145,9 +145,114 @@
     />
   </head>
   <body>
-    <div class="hello">
-      <img class="hello__logo" src="../assets/img/logo.svg" alt="WTF " />
-      <span class="hello__circles"></span>
-    </div>
+    <header class="header">
+      <button class="menu-button menu--js" aria-label="Otworz menu">🍔</button>
+      <nav class="navigation">
+        <a href="index.html" class="navigation__link">Strona główna</a>
+        <a href="html.html" class="navigation__link">HTML</a>
+        <a href="css.html" class="navigation__link">CSS</a>
+        <a href="js.html" class="navigation__link">JavaScript</a>
+      </nav>
+    </header>
+    <main class="main">
+      <header class="main__header">
+        <h1 class="main__heading">Karol Skalutki web</h1>
+      </header>
+
+      <section class="about-me">
+        <h2 class="about-me__tittle">Kim jestem?</h2>
+        <p class="about-me__description">
+          Nazywam sie podobnie jak nazwa tej strony a tekst wpisuje tylko po to
+          by zapelnic te strone tekstem
+        </p>
+        <img
+          src="../assets/img/IMG_4984.JPG"
+          alt="Kolorowa łódź rybacka z Malty"
+          class="about-me__img"
+        />
+      </section>
+
+      <section class="articles">
+        <h2 class="articles__heading">Notatnik z WTF: Co ten frontend</h2>
+        <div class="grid">
+          <article class="article">
+            <h3 class="article__tittle">Tworzenie notatnika</h3>
+            <p class="article__description">
+              Wlasnie w tym momencie jestem w trakcie tworzenia o to tego pliku
+              html ktory wlasnie czytasz. Robie to wraz z Korsanem, ktory
+              prowadzi mnie przez kurs i pokazuje / odkrywa swiat frontendu
+            </p>
+          </article>
+          <article class="article">
+            <h3 class="article__tittle">
+              Czy kodowanie dla osoby poczatkujacej jest łatwe?
+            </h3>
+            <p class="article__description">
+              Nie, zdecydowanie nie jest to łatwe, przynajmniej dla mnie. wymaga
+              to skupienia i otwartosci umysłu. Czasami zdarza mi sie
+              sluchać/ogladać jeden film kilkukrotnie by dokładnie zrozumiec to,
+              co Maciej chce przekazać
+            </p>
+          </article>
+          <article class="article">
+            <h3 class="article__tittle">Jak miec motywacje?</h3>
+            <p class="article__description">
+              Próg wejścia do świata programnowania wg mnie jest wysoki. Ale to
+              dobrze, bo jesli koś jest na tyle zdeterminowany by dotrzec do
+              tego punktu ...
+            </p>
+          </article>
+
+          <article class="article">
+            <h3 class="article__tittle">Dadawanie tresci poprzez JS</h3>
+            <p class="article__description article__description--JS">...</p>
+          </article>
+
+          <article class="article">
+            <h3 class="article__tittle">RWD</h3>
+            <p class="article__description">
+              RWD - Responsive Web Design Czyli projektowanie stron
+              responsywnych. Dzis większość użytkowników internetu to osoby
+              kożystające z urządzeń mobilnych dlatego tak wazne jest by dbać o
+              to aby nasza strona dobrze się wyświetlała na urządzeniach o
+              mniejszej rozdzielczośći ekranu.
+            </p>
+          </article>
+
+          <article class="article">
+            <h3 class="article__tittle">@media queries</h3>
+            <p class="article__description">
+              @media queries - to własność, którą używamy w CSS i pozwala nam na
+              ustawienie responsywności naszej strony
+            </p>
+          </article>
+
+          <article class="article">
+            <h3 class="article__tittle">GRID</h3>
+            <p class="article__description">
+              To siatka ktrórą wykożystujemy do budowy leyoutu naszej strony
+            </p>
+          </article>
+
+          <article class="article">
+            <h3 class="article__tittle">FLEXBOX</h3>
+            <p class="article__description">
+              Pomaga webdeveloperowi w środkowaniu elementów na stronie
+            </p>
+          </article>
+
+          <article class="article">
+            <h3 class="article__tittle">FLEXBOX VS GRID</h3>
+            <p class="article__description">
+              Obie funkcjonalnosci się świetnie uzupełniają, Grid używamy do
+              budowy leyoutu a Flexbox zaś srodkujemy elementy
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      Ta strona powstaje w trakcie kursu WTF co ten frontend
+    </footer>
   </body>
 </html>

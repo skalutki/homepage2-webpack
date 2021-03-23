@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navigation">
+        <a href="index.html" class="navigation__link">Strona główna</a>
+        <a href="html.html" class="navigation__link">HTML</a>
+        <a href="css.html" class="navigation__link">CSS</a>
+        <a href="js.html" class="navigation__link">JavaScript</a>
+      </nav>
+    </header>
+    <main class="main">
+      <header class="header">
+        <h1 class="header__tittle">WTF: Co ten frontend - HTML</h1>
+      </header>
+      <section class="introduction">
+        <h2 class="introduction__tittle">Co będzie na tej podstronie?</h2>
+        <p class="introduction__description">
+          Na tej stronie postaram sie gromadzic wszystkie informacje przekazane
+          w kursie o HTML-u
+        </p>
+      </section>
+      <section class="articles">
+        <h2 class="articles__heading">HTML</h2>
+        <article class="article">
+          <h3 class="article__tittle">Podstawowe znaczniki w HTML</h3>
+          <p class="article__description">
+            Nagłówki - wyróżniamy sześć typów nagłówkow od H1 do H6 przy czym
+            nagłówek H1 jest największu i moze wystąpić tylko raz na stronie
+          </p>
+        </article>
+        <article class="article">
+          <h3 class="article__tittle">Znacznik nav</h3>
+          <p class="article__description">
+            Służy on do wprowadzenia nawigacji na naszej stronie internetowej.
+            dodajemy go do headera który będzie w body ale nie będzie w main.
+            Ten header będzie kopiowany na kazdej podstronie
+          </p>
+        </article>
+        <article class="article">
+          <h3 class="article__tittle">Znacznik br</h3>
+          <p class="article__description">
+            Służy on do wprowadzenia twardego przeskoku do nastepnej linijki
+            tekstu.
+          </p>
+        </article>
+        <img
+          src="../assets/img/_DSC0013.jpg"
+          alt="kwiatek"
+          class="articles__img"
+        />
+      </section>
+    </main>
+
+    <footer class="footer">
+      Ta strona powstaje w trakcie kursu WTF co ten frontend
+    </footer>
+  </body>
+</html>
