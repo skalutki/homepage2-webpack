@@ -1,0 +1,34 @@
+.navigation {
+  padding: 16px;
+  display: none;
+  &__link {
+    color: #db8056;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 16px;
+    &:hover {
+      color: #41cbee;
+    }
+    @media screen and (min-width: 768px) {
+      margin-right: 16px;
+      display: inline-block;
+    }
+  }
+  &--js {
+    display: block;
+    border-radius: 2px;
+    margin: 10px 0 10px 0px;
+    padding: 10px 15px 10px 15px;
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 2px;
+    margin: 10px 0 10px 0px;
+    padding: 10px 16px 10px 16px;
+  }
+}

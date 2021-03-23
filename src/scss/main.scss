@@ -1,13 +1,85 @@
 @import "~normalize.css";
 
 @import "_variables";
-@import "modules/hello.scss";
+@import "modules/navigation.scss";
+@import "modules/about-me.scss";
+@import "modules/articles.scss";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
 body {
-  background: $wtf;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    0deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+
+.main {
+  margin: 60px auto 0;
+  max-width: 1000px;
+  padding: 0 8px;
+  &__heading {
+    color: #7a3b69;
+  }
+  @media screen and (min-width: 768px) {
+    margin: 90px auto 0;
+  }
+}
+
+.footer {
+  background-color: #dab785;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.grid {
+  display: inline;
+  @media screen and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 16px;
+  }
+}
+
+.header {
+  background: #fefefe;
+  min-height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.introduction {
+  &__description {
+    background-color: #b1aaaa;
+    font-size: medium;
+  }
+  &__tittle {
+    color: #1460aa;
+  }
+}
+
+.menu-button {
+  background: none;
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }

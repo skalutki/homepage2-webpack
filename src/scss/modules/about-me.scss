@@ -1,0 +1,13 @@
+.about-me {
+  &__description {
+    background-color: #b1aaaa;
+    font-size: medium;
+  }
+  &__img {
+    display: block;
+    max-width: 100%;
+  }
+  &__tittle {
+    color: #1460aa;
+  }
+}
