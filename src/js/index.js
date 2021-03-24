@@ -58,22 +58,14 @@ person.introNew1('Andrzej', 11);
 console.log(person);
 
 
+import moment from 'moment'
 
-const hideNav = document.querySelector('.navigation');
-const menu = document.querySelector('.menu--js');
-console.log(menu);
+console.log(moment().format('MMMM Do YYYY, h:mm:ss a'));
+const footerTime = moment().format('LL');
 
-/*const myClick = () => {
-    console.log('kliknales w przycisk')
-    hideNav.classList.toggle('navigation--js');
-    hideNav.classList.toggle('navigation');
-}*/
-menu.addEventListener('click', () => {    
-    console.log('kliknales w przycisk')
-    hideNav.classList.toggle('navigation--js');
-    hideNav.classList.toggle('navigation');
-});
+const time = document.querySelector('.footer__time--js');
 
+time.innerHTML= (`<p>Witam Cię na mojej stronie, dzisiejsza data to ${footerTime}</p>`);
 
 
 
