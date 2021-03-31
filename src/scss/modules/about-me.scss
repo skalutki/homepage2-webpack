@@ -3,10 +3,30 @@
     background-color: #b1aaaa;
     font-size: medium;
   }
-  &__img {
-    display: block;
-    max-width: 100%;
+
+  .picture {
+    background-color: #fefefe;
+    padding: 16px;
+    position: relative;
+    padding-bottom: 48px;
+    border: double 2px lightblue;
+    &__img {
+      max-width: 100%;
+      border-radius: 24px;
+    }
+    &__footer {
+      margin-top: 12px;
+      margin-right: 12px;
+      display: flex;
+      flex-direction: row-reverse;
+      border: dashed 2px red;
+      padding: 2px 8px 2px 2px;
+      width: 165px;
+      position: absolute;
+      right: 20px;
+    }
   }
+
   &__tittle {
     color: #1460aa;
   }
