@@ -10,6 +10,7 @@
     position: relative;
     padding-bottom: 48px;
     border: double 2px lightblue;
+    z-index: -1;
     &__img {
       max-width: 100%;
       border-radius: 24px;
@@ -27,7 +28,7 @@
     }
   }
 
-  &__tittle {
+  &__title {
     color: #1460aa;
   }
 }

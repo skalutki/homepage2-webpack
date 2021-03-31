@@ -14,3 +14,10 @@ menu.addEventListener('click', () => {
     hideNav.classList.toggle('navigation--js');
     hideNav.classList.toggle('navigation');
 });
+
+const darkModeLight = document.querySelector('.dark-mode__light--js');
+const darkModeDark = document.querySelector('.dark-mode__dark--js');
+
+console.log(darkModeDark);
+console.log(darkModeLight);
+

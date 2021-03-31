@@ -6,6 +6,23 @@
 @import "modules/articles.scss";
 @import "modules/dark-mode.scss";
 
+:root {
+  --dark-mode-BG: ;
+  --dark-mode-Nav: ;
+  --dark-mode-Font: ;
+  --dark-mode-Border: ;
+  --dark-mode-Heading: ;
+  --dark-mode-Footer: ;
+
+  --light-mode-BG: rgb(131, 58, 180);
+  --light-mode-Nav: #fefefe;
+  --light-mode-Font: ;
+  --light-mode-Border: ;
+  --light-mode-Heading: #7a3b69;
+  --light-mode-Title: #1460aa;
+  --light-mode-Footer: #dab785;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -17,7 +34,7 @@ html {
 }
 
 body {
-  background: rgb(131, 58, 180);
+  background: var(--light-mode-BG);
   background: linear-gradient(
     0deg,
     rgba(131, 58, 180, 1) 0%,
@@ -31,7 +48,7 @@ body {
   max-width: 1000px;
   padding: 0 8px;
   &__heading {
-    color: #7a3b69;
+    color: var(--light-mode-Heading);
   }
   @media screen and (min-width: 768px) {
     margin: 90px auto 0;
@@ -39,7 +56,7 @@ body {
 }
 
 .footer {
-  background-color: #dab785;
+  background-color: var(--light-mode-Footer);
   margin: 8px auto 0;
   width: 100%;
   display: inline-block;
@@ -56,7 +73,7 @@ body {
 }
 
 .header {
-  background: #fefefe;
+  background: var(--light-mode-Nav);
   min-height: 60px;
   position: fixed;
   top: 0;
@@ -68,8 +85,8 @@ body {
     background-color: #b1aaaa;
     font-size: medium;
   }
-  &__tittle {
-    color: #1460aa;
+  &__title {
+    color: var(--light-mode-Title);
   }
 }
 
