@@ -28,6 +28,7 @@
   --light-mode-Heading: #7a3b69;
   --light-mode-Title: #41cbee;
   --light-mode-Footer: #dab785;
+  --light-mode-Picture-BG: #fefefe;
 }
 
 html {
@@ -90,18 +91,5 @@ body {
   }
   &__title {
     color: var(--light-mode-Title);
-  }
-}
-
-.menu-button {
-  background: none;
-  text-decoration: none;
-  border: none;
-  display: inline-block;
-  position: absolute;
-  top: 20px;
-  right: 10px;
-  @media screen and (min-width: 768px) {
-    display: none;
   }
 }

@@ -33,6 +33,35 @@
   }
 }
 
+.menu-button {
+  background: none;
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.dark-mode {
+  background: none;
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  @media screen and (min-width: 768px) {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    left: auto;
+  }
+}
+
 .hidden--js {
   display: none;
 }
