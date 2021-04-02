@@ -5,7 +5,7 @@
   }
 
   .picture {
-    background-color: #fefefe;
+    background-color: var(--light-mode-Nav);
     padding: 16px;
     position: relative;
     padding-bottom: 48px;
@@ -29,6 +29,6 @@
   }
 
   &__title {
-    color: #1460aa;
+    color: var(--light-mode-Title);
   }
 }

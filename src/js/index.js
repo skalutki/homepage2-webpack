@@ -71,3 +71,4 @@ time.innerHTML= (`<p>Witam Cię na mojej stronie, dzisiejsza data to ${footerTim
 
 
 
+

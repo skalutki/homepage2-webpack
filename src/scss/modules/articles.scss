@@ -7,7 +7,7 @@
     &::before {
       content: "";
       display: inline-block;
-      background-color: #fefefe;
+      background-color: var(--light-mode-Nav);
       height: 4px;
       width: 100px;
       margin-right: 16px;
@@ -15,7 +15,7 @@
     &::after {
       content: "";
       display: inline-block;
-      background-color: #fefefe;
+      background-color: var(--light-mode-Nav);
       height: 4px;
       width: 100px;
       margin-left: 16px;
@@ -36,7 +36,7 @@
     &::before {
       content: "";
       display: inline-block;
-      background-color: #fefefe;
+      background-color: var(--light-mode-Nav);
       height: 10px;
       width: 10px;
       border-radius: 50%;
@@ -50,7 +50,7 @@
     }
   }
   &__title {
-    color: #41cbee;
+    color: var(--light-mode-Title);
     margin: 0;
   }
 }

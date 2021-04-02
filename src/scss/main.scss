@@ -7,24 +7,32 @@
 @import "modules/dark-mode.scss";
 
 :root {
-  --dark-mode-BG: ;
-  --dark-mode-Nav: ;
-  --dark-mode-Font: ;
-  --dark-mode-Border: ;
-  --dark-mode-Heading: ;
-  --dark-mode-Footer: ;
+  --dark-mode-BG: #424242;
+  --dark-mode-Nav: #616161;
+  --dark-mode-Nav-Link: #e0e0e0;
+  --dark-mode-Font: #fafafa;
+  --dark-mode-Heading: #9e9e9e;
+  --dark-mode-Title: #bdbdbd;
+  --dark-mode-Footer: #212121;
 
   --light-mode-BG: rgb(131, 58, 180);
+  --light-mode-gr: linear-gradient(
+    0deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
   --light-mode-Nav: #fefefe;
-  --light-mode-Font: ;
-  --light-mode-Border: ;
+  --light-mode-Nav-Link: #db8056;
+  --light-mode-Font: #000000;
   --light-mode-Heading: #7a3b69;
-  --light-mode-Title: #1460aa;
+  --light-mode-Title: #41cbee;
   --light-mode-Footer: #dab785;
 }
 
 html {
   box-sizing: border-box;
+  color: var(--light-mode-Font);
 }
 
 *,
@@ -35,12 +43,7 @@ html {
 
 body {
   background: var(--light-mode-BG);
-  background: linear-gradient(
-    0deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 1) 50%,
-    rgba(252, 176, 69, 1) 100%
-  );
+  background: var(--light-mode-gr);
 }
 
 .main {

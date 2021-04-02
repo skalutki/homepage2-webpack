@@ -2,7 +2,7 @@
   padding: 16px;
   display: none;
   &__link {
-    color: #db8056;
+    color: var(--light-mode-Nav-Link);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,4 +31,8 @@
     margin: 10px 0 10px 0px;
     padding: 10px 16px 10px 16px;
   }
+}
+
+.hidden--js {
+  display: none;
 }
