@@ -5,7 +5,7 @@
   }
 
   .picture {
-    background-color: var(--light-mode-Picture-BG);
+    background-color: var(--Picture-BG);
     padding: 16px;
     position: relative;
     padding-bottom: 48px;
@@ -30,6 +30,6 @@
   }
 
   &__title {
-    color: var(--light-mode-Title);
+    color: var(--Title);
   }
 }
