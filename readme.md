@@ -68,7 +68,7 @@ Project is: in progress, I'm still learning JS and trying to use new knowledge i
 
 ## Sources
 
-This web is inspire by Maciej Korsan and tutorial by ![WTF: Co ten frontend](https://cotenfrontend.pl/)
+This web is inspire by Maciej Korsan and tutorial by [WTF: Co ten frontend](https://cotenfrontend.pl/)
 
 
 ## Contact
