@@ -1,7 +1,6 @@
 ![screenshot](gh/desktop-lightMode.JPG)
 
-# Hompage 2 - webpack 
-
+# Hompage 2 - webpack
 
 ## Tabel of contents
 
@@ -15,13 +14,10 @@
 - [Sources](#sources)
 - [Contact](#contact)
 
-
 ## General info
 
-This project is being developed in progress of course ***WTF: Co ten frontend***.
+This project is being developed in progress of course **_WTF: Co ten frontend_**.
 Its purpose is to learn the basics of the frontend and this website was created to show this knowledge in practice.
-
-
 
 ## Technologies
 
@@ -30,10 +26,9 @@ Its purpose is to learn the basics of the frontend and this website was created 
 - Vanilla JS
 - webpack
 
-
 ## Setup
 
-In console type `npm install` then choose one of the options: 
+In console type `npm install` then choose one of the options:
 
 `npm run start` - runs development mode
 
@@ -41,41 +36,32 @@ In console type `npm install` then choose one of the options:
 
 `npm run publish` - runs build process and publish the page using `gh-pages` branch
 
-
 ## Demo
 
 Demo version of this project: [Link](https://skalutki.github.io/homepage2-webpack/)
-
 
 ## Features
 
 - Hamburger menu
 - dark / light mode
+- Local storage
 - one brake point (media queris)
 - flex box
 - grid
 
-
 ## To-do list:
 
-- add to local storage dark / light theam
-
+- Color change for light mode
+- Try use attribute for light / dark mode
 
 ## Status
 
 Project is: in progress, I'm still learning JS and trying to use new knowledge in practice!
 
-
 ## Sources
 
 This web is inspire by Maciej Korsan and tutorial by [WTF: Co ten frontend](https://cotenfrontend.pl/)
 
-
 ## Contact
 
 Created by skalutki <skalutki@gmail.com> - feel free to contact me!
-
-
-
-
-
