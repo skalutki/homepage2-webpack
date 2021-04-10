@@ -1,4 +1,4 @@
-![screenshot](gh/desktop-lightMode.JPG)
+![cover](gh/cover.png)
 
 # Hompage 2 - webpack
 
@@ -18,6 +18,15 @@
 
 This project is being developed in progress of course **_WTF: Co ten frontend_**.
 Its purpose is to learn the basics of the frontend and this website was created to show this knowledge in practice.
+
+![screenshot light version](gh/desktop-lightMode.JPG)
+desktop light version
+
+![screenshot dark version](gh/desktop-darkMode.JPG)
+desktop dark version
+
+![screenshot dark version](gh/mobile-darkMode.JPG)
+mobile dark version
 
 ## Technologies
 
