@@ -32,6 +32,7 @@ mobile dark version
 
 - HTML 5
 - SASS -SCSS
+- BEM
 - Vanilla JS
 - webpack
 
