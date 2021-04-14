@@ -1,12 +1,10 @@
-@keyframes button2 {
+@keyframes button {
   0% {
-    transform: scale(1);
+    opacity: 0;
   }
-  50% {
-    transform: scale(1.1);
-  }
+
   100% {
-    transform: scale(1);
+    opacity: 1;
   }
 }
 
@@ -30,7 +28,7 @@
     align-content: space-between;
   }
   &__button {
-    min-width: 110px;
+    min-width: 210px;
     width: 100%;
     margin: 0 24px;
     border-radius: 4px;
@@ -39,14 +37,62 @@
   }
   &__01 {
     transition: all 0.2s ease;
-    &:hover {
-      animation: circle-anim 0.3s ease forwards;
+    &:focus {
+      //animation: circle-anim 0.3s ease forwards;
       transition: all 0.4s ease;
-      background-color: red;
+      background-color: green;
     }
-    &__02 {
-      display: inline-block;
-      animation: button2 1s ease-in-out infinite;
+  }
+  &__02 {
+    // display: inline-block;
+    //animation: button 1s ease-in infinite;
+    animation-name: button;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-iteration-count: 3;
+    animation-timing-function: cubic-bezier(0.36, -1.18, 0.65, 1.85);
+    &:hover {
+      animation-play-state: paused;
     }
+  }
+  &__03 {
+    overflow: hidden;
+    background-color: hsl(10, 100%, 50%);
+    border: none;
+    font-size: 2.3em;
+    color: white;
+    font-family: "Montserrat";
+    border-bottom: 7px solid hsl(10, 100%, 50%);
+    padding-top: 5px;
+    position: relative;
+    z-index: 1;
+    &:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 400%;
+      background-color: hsl(10, 100%, 40%);
+      z-index: -1;
+      top: 0;
+      right: -100%;
+      transition: transform 0.8s ease-out;
+      will-change: transform;
+    }
+    &:hover:after {
+      transform: translateX(-100%);
+    }
+    &:hover ~ .buttons__box {
+      transform: scale(1);
+    }
+  }
+  &__box {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(0, 0%, 10%);
+    position: absolute;
+    transform: scale(0);
+    transition: transform 1s ease-in-out;
   }
 }
