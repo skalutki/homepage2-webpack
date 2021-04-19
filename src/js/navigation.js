@@ -65,10 +65,6 @@ if (result==false){
 }
 
 
-
-
-
-
 //dodajemy akcje do przycisku darkModeDark
 darkModeDark.addEventListener("click", () => {
 
